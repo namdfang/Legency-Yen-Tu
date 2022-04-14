@@ -1,0 +1,151 @@
+header {
+    height: 600px;
+    width: 100%;
+    vertical-align:middle;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+      url(../image/bg-room.jpg) no-repeat center;
+   background-size: cover;
+}
+
+main .room_title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main .room_title span{
+    font-size: 42px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+main .room_title p{
+    margin: 40px auto;
+    width: 830px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+main hr{
+    height: 2px;
+    width: 200px;
+    margin: 20px auto;
+    background-color: #be8844;
+    border-radius: 2px;
+    border: none;
+}
+
+.all_rooms{
+    padding: 0 15%;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.all_rooms .room{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.all_rooms .room--right{
+    float: right;
+}
+
+.all_rooms .room--left{
+    float: left;
+}
+
+.all_rooms .room img{
+    width: 95%;
+}
+
+.all_rooms .room .room__content{
+    padding: 5%;
+}
+
+.all_rooms .room h3{
+    font-size: 23px;
+    font-style: italic;
+    width: 405px;
+    margin-bottom: 33px;
+}
+
+.all_rooms .room ul{
+    margin: 0 0 33px 50px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.all_rooms .room button{
+    border: none;
+    background-color: #be8844;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+.all_rooms .room button:hover{
+    cursor: pointer;
+    background-color: #a97738;
+}
+
+.all_rooms .room a{
+    color: #be8844;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1024px){
+    header{
+        height: 500px;
+    }
+
+    main .room_title span{
+        font-size: 32px;
+        margin:0;
+    }
+
+    main .room_title p{
+        margin: 30px auto;
+        width: 600px;
+        font-size: 15px;
+    }
+
+    .all_rooms .room h3{
+        font-size: 16px;
+        width: 300px;
+        margin-bottom: 70px;
+    }
+
+    .all_rooms .room button{
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width:767px){
+    header{
+        height: 400px;
+    }
+
+    main .room_title{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    main .room_title p{
+        margin: 30px auto;
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .all_rooms .room{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all_rooms .room .room__content{
+        padding: 5% 0;
+    }
+
+    .all_rooms .room button{
+        margin-right: 20px;
+    }
+}

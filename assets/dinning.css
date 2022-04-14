@@ -1,0 +1,90 @@
+header {
+    height: 600px;
+    width: 100%;
+    vertical-align:middle;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url(../image/bg-dinning.jpg) no-repeat center;
+   background-size: cover;
+}
+
+main .dinning__title{
+   text-align: center;
+   margin: 7% 25%;
+}
+
+main .dinning__title b{
+   font-size: 60px;
+}
+
+main .dinning__title p{
+   font-size: 18px;
+   margin-top: 30px;
+   font-family: 'Luxurious Roman', cursive;
+}
+
+main .dining__content{
+   padding: 0 15%;
+   background-color: #000;
+   color: #fff;
+}
+
+main .dining__content .content__title{
+   font-size: 42px;
+   text-align: center;
+   padding: 70px 0;
+}
+
+main .dining__content .content__blogs{
+   display: flex;
+   border-bottom: 1px solid #be8844;
+   padding-bottom: 100px;
+}
+
+.dining__content .content__blogs .blog{
+   padding: 0 16px;
+}
+
+.content__blogs .blog img{
+   width: 100%;
+}
+
+.content__blogs .blog h2{
+   font-size: 24px;
+   margin: 20px 0;
+   font-style: italic;
+}
+
+.content__blogs .blog span,a{
+   color: #be8844;
+}
+
+.content__blogs .blog p{
+   margin: 15px 0;
+   font-size: 18px;
+   line-height: 1.4;
+   font-family: 'Luxurious Roman', cursive;
+}
+
+.content__blogs .blog a{
+   font-style: italic;
+}
+
+@media screen and (max-width:1024px){
+   header{
+       height: 500px;
+   }
+}
+
+@media screen and (max-width:767px){
+   header{
+       height: 400px;
+   }
+
+   main .dining__content .content__blogs{
+       flex-direction: column;
+    }
+
+    .dining__content .content__blogs .blog{
+       margin-bottom: 50px;
+    }
+}

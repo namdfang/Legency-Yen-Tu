@@ -1,0 +1,33 @@
+footer{
+    background-color: #000;
+    text-align: center;
+    padding: 80px 0;
+    color: #fff;
+  }
+  footer h4{
+    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+  footer p {
+    font-size: 15px;
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  footer i {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 19px ;
+    margin: 20px 10px;
+  }
+  
+  @media screen and (max-width:767px) {
+    footer h4{
+      font-size: 20px;
+      padding-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
